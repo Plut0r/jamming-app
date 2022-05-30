@@ -1,5 +1,5 @@
 const clientId = '6074b5f048bc434bb7df916be9e43ab8';
-const redirectUri = "fluffy-dust.surge.sh";
+const redirectUri = "http://fluffy-dust.surge.sh";
 
 
 let accessToken;
