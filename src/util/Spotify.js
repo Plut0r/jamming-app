@@ -73,7 +73,7 @@ const Spotify = {
                 return fetch(`https://api.spotify.com/v1/users/${userId}/playlists/${playlistId}/tracks`, 
                 {
                     headers: headers,
-                    method: 'POST',
+                    method: 'GET',
                     body: JSON.stringify({ uris: trackUris })
                 }
                 );
